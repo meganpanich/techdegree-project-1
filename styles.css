@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/IMG_2602.jpeg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -86,8 +86,9 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
+/* Having issues in Firefox where 350px was highest to go before the cards stop being equal width between each other */
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
