@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #F6F0E0;
 }
 /* Link Styles */
 
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/IMG_2602.jpeg') no-repeat top center ;
+  background: url('images/GoodHarborBay.jpeg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -88,11 +88,11 @@ header .profile-image:hover {
   background-color: #222;
   color: white;
 }
-/* max-width was 500 px / Having issues in Firefox where 350px was highest to go before the cards stop being evenly distributed width between each other */
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 350px;
+  max-width: 500px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -119,6 +119,15 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+main .card-image {
+  margin-top: 10px;
+  width: 400px;
+  height: 400px;
+  border-radius: 5%;
+  border: 3px solid white;
+  transition: all .5s;
 }
 
 footer {
